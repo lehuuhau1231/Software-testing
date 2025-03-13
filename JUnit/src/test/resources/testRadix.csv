@@ -1,0 +1,6 @@
+number, radix, expected
+123, 2, 1111011
+123, 16, 7B
+222, 16, DE
+
+

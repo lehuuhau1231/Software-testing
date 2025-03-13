@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: RadixTester
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.089 s <<< FAILURE! - in RadixTester
+testData{int, int, String}[1]  Time elapsed: 0.033 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1111011> but was: <10000>
+	at RadixTester.testData(RadixTester.java:39)
+
+testData{int, int, String}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <7B> but was: <10>
+	at RadixTester.testData(RadixTester.java:39)
+
+testData{int, int, String}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <DE> but was: <10>
+	at RadixTester.testData(RadixTester.java:39)
+
